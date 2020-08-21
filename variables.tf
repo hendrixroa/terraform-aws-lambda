@@ -44,7 +44,3 @@ variable "memory" {
 variable "layer_arn" {}
 
 variable "enabled" {}
-
-variable "es_url" {
-  description = "Elasticsearch url"
-}
