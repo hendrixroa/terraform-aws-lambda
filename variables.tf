@@ -43,17 +43,8 @@ variable "memory" {
 
 variable "layer_arn" {}
 
-variable "lambda_stream_arn" {
-  default = null
-}
-
-variable "disable_stream_logs" {
-  default = false
-}
-
-variable "cwl_endpoint" {
-  default     = "logs.us-east-1.amazonaws.com"
-  description = "Cloudwatch endpoint logs"
-}
-
 variable "enabled" {}
+
+variable "es_url" {
+  description = "Elasticsearch url"
+}
